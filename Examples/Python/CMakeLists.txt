@@ -25,6 +25,7 @@ pybind11_add_module(ActsPythonBindings
   src/Navigation.cpp
   src/Generators.cpp
   src/Obj.cpp
+  src/AOD.cpp
   src/TruthTracking.cpp
   src/TrackFitting.cpp
   src/TrackFinding.cpp
@@ -63,6 +64,7 @@ target_link_libraries(
         ActsExamplesTrackFinding
         ActsExamplesTrackFitting
         ActsExamplesVertexing
+        ActsExamplesAOD
         ActsExamplesFatras
         ActsExamplesDetectorTelescope
         ActsExamplesUtilities
