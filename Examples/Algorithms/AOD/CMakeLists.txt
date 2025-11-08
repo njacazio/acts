@@ -4,7 +4,7 @@ add_library(
     src/ActsToAo2d.cpp
 )
 
-find_package(O2 REQUIRED ReconstructionDataFormats)
+# find_package(O2 REQUIRED ReconstructionDataFormats)
 
 target_include_directories(
     ActsExamplesAOD
